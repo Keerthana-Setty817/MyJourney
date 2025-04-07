@@ -1,0 +1,95 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* .img-container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+header {
+  position: relative;
+  text-align: center;
+  /* padding-top: 25px;
+*/
+}
+header img {
+  /* position: static;
+  padding-top: 40px; */
+  /* padding-bottom: 50px;  */
+  /* left: 200px;
+  right: 0; */
+  /* width: 65%;
+  height: 100%; */
+  background-image: url(images/background-photo.jpg);
+
+/* Background image is centered vertically and horizontally at all times */
+background-position: center center;
+/* Background image doesn't tile */
+background-repeat: no-repeat;
+/* Background image is fixed in the viewport so that it doesn't move when
+the content's height is greater than the image's height */
+background-attachment: fixed;
+/* This is what makes the background image rescale based
+on the container's size */
+background-size: cover;
+/* Set a background color
+while the background image is loading */
+background-color: #f8fafd;
+}
+
+.pageTitle {
+  position: absolute;
+    height: 50px;
+    top: 50px;
+    left: 250px;
+    padding-top: 180px;
+}
